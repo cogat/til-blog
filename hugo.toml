@@ -7,6 +7,7 @@ theme = 'papermod'
 [params]
 showCodeCopyButtons = true
 showReadingTime = true
+custom_css = ["css/custom.css"]
 
 [params.editPost]
 URL = "https://github.com/cogat/til-blog/blob/main/content"

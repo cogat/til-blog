@@ -1,0 +1,4 @@
+{{ range .Site.Params.custom_css -}}
+    {{ $styles := resources.Get . | minify }}
+    <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+{{- end }}
