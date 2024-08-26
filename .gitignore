@@ -4,3 +4,6 @@
 
 # System (macOS)
 .DS_Store
+
+# Local drafts
+content/_nocommit/
